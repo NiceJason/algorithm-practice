@@ -21,7 +21,7 @@ public class TestKSPX {
             int index = part(arr,l,h);
             //左分区快速排序
             KSPX(arr, l, index-1);
-            //右分区快速哦哎嘘
+            //右分区快速排序
             KSPX(arr, index+1, h);
         }
     }
